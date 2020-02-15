@@ -64,7 +64,7 @@ pyflakes==2.1.1
 pygame==1.9.6
 PyGetWindow==0.0.8
 Pygments==2.4.2
-PyInstaller==3.5
+PyInstaller==3.6
 pylint==2.4.3
 PyMsgBox==1.0.7
 pyparsing==2.4.2
