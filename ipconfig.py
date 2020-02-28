@@ -1,16 +1,16 @@
 from time import sleep
 from pyautogui import *
 
-FAILSAFE = False
+FAILSAFE = False # To leave the mouse move free in the screen :)
 # Positions
 start_btn = position(34, 878)
 search_filed = position(110, 828)
 
 # Actions
-#click(position(34, 878))
+
 click(start_btn)
 if True:
-    #click(position(110, 828))
+    
     click(search_filed)
     if True:  
         typewrite("cmd")
@@ -27,7 +27,10 @@ if True:
             click(search_filed)
             sleep(2)
             
-            typewrite("bloc-notes")
+            
+            # Editing is important here according to your computer's lang
+            typewrite("bloc-notes") # for a french windows
+            #typewrite("Notepad") # for a english windows
             sleep(1)
             
             typewrite(["enter"])
